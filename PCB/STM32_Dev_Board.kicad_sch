@@ -1,0 +1,315 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e0df2b07-1c87-436d-b679-271210c51cf4")
+	(paper "A4")
+	(lib_symbols)
+	(text "STM32F769 Dev. Board"
+		(exclude_from_sim no)
+		(at 222.25 177.546 0)
+		(effects
+			(font
+				(size 5 5)
+				(bold yes)
+			)
+		)
+		(uuid "27daac79-fa6d-48be-9cd3-18f44985d96b")
+	)
+	(text "Block Diagramm"
+		(exclude_from_sim no)
+		(at 140.208 28.194 0)
+		(effects
+			(font
+				(size 5 5)
+				(bold yes)
+			)
+		)
+		(uuid "c9d0c25a-e94a-4abf-b64a-8632a93419c4")
+	)
+	(sheet
+		(at 63.5 85.09)
+		(size 27.94 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 0 255 0 1.0000)
+		)
+		(uuid "19107dea-0f56-4a71-8d03-37e2faf1cd77")
+		(property "Sheetname" "USB_OTG_FS"
+			(at 63.5 83.5134 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 63.5 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Feld2" "blatt2"
+			(at 63.5 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "STM32_Dev_Board"
+				(path "/e0df2b07-1c87-436d-b679-271210c51cf4"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 160.02 134.62)
+		(size 12.7 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 255 153 0 1.0000)
+		)
+		(uuid "266a399d-f56d-49ed-a36e-5f11091c235d")
+		(property "Sheetname" "EMMC"
+			(at 160.02 133.0434 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "EMMC.kicad_sch"
+			(at 160.02 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32_Dev_Board"
+				(path "/e0df2b07-1c87-436d-b679-271210c51cf4"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 189.23 85.09)
+		(size 29.21 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 0 0 0 1.0000)
+		)
+		(uuid "328b59a7-8b90-47a8-b63e-cb854c3ebe9f")
+		(property "Sheetname" "DSI_Interface"
+			(at 189.23 83.5134 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DSI-Interface.kicad_sch"
+			(at 189.23 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32_Dev_Board"
+				(path "/e0df2b07-1c87-436d-b679-271210c51cf4"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 138.43 60.96)
+		(size 25.4 52.07)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 0 0 1.0000)
+		)
+		(uuid "66871573-be06-42ec-8ed2-dfa7a24354d4")
+		(property "Sheetname" "STM32F769"
+			(at 138.43 59.3834 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STM32F769BIT6.kicad_sch"
+			(at 138.43 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32_Dev_Board"
+				(path "/e0df2b07-1c87-436d-b679-271210c51cf4"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 134.62)
+		(size 12.7 11.43)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 255 0 255 1.0000)
+		)
+		(uuid "b70790ba-f070-4501-a8ba-37c11bfb83ea")
+		(property "Sheetname" "SDRAM"
+			(at 125.984 133.35 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SDRAM.kicad_sch"
+			(at 127 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32_Dev_Board"
+				(path "/e0df2b07-1c87-436d-b679-271210c51cf4"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 106.68)
+		(size 27.94 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 0 0 255 1.0000)
+		)
+		(uuid "ef3e8a9f-aafd-40e3-8cd6-85f24f1c2644")
+		(property "Sheetname" "USB_OTG_HS"
+			(at 63.5 105.1034 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB_OTG_HS.kicad_sch"
+			(at 63.5 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32_Dev_Board"
+				(path "/e0df2b07-1c87-436d-b679-271210c51cf4"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 62.23)
+		(size 27.94 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 0 194 194 1.0000)
+		)
+		(uuid "f10e823b-24d8-4628-99ea-f370bbe62daa")
+		(property "Sheetname" "Power_Supply"
+			(at 63.5 60.6534 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power Supply.kicad_sch"
+			(at 63.5 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32_Dev_Board"
+				(path "/e0df2b07-1c87-436d-b679-271210c51cf4"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

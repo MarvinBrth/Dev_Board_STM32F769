@@ -1,0 +1,11 @@
+18.05.24:
+1. 9V to GND	/	5V to GND	/	3V3 to GND	/ 	1V8 to GND;
+		Kein Kurzschluss
+
+2. 9V angeschlossen und diverse Spannungen gechecked;
+		PASS
+
+3. Spannungen über LED´s gemessen;
+		*Ist = 2,6V, Soll = 2,6V*
+	
+4. _test_ 
