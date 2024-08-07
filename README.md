@@ -41,7 +41,12 @@ Comprehensive STM32F796 dev board tailored for versatile applications. Features 
 
 <img width="597" alt="image" src="https://github.com/user-attachments/assets/0eba33ba-6d92-4365-a8cf-fe52249ab933">
 
-3D-Model:
+## 3D-Model:
 
 <img width="872" alt="image" src="https://github.com/user-attachments/assets/2dfaf4c5-c7d2-4dc4-8b8d-c69a8616cf01">
+
+## Real life
+
+![dev_board](https://github.com/user-attachments/assets/8b44eebd-4b15-4345-912c-0632250c3cd8)
+
 
