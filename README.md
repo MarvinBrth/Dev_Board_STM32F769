@@ -1,5 +1,12 @@
 # Dev_Board_STM32F769
-Comprehensive STM32F796 dev board tailored for versatile applications. Features dual OTG USB-C interfaces (FS and HS), DRAM, DSI and EMMC storage. Ideal for developers seeking advanced integration and performance in their hardware projects
+## Feature
+- STM32F769BIT6
+- OTG USB C FS
+- OTG USB C HS
+- DRAM
+- DSI_Interface
+- EMMC
+### Infos
 - Created with Kicad
 - 6 Layer
 - 5 x 5 cm
